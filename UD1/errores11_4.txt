@@ -1,0 +1,9 @@
+1. En la linea 1, después de DOCTYPE, pone "htm" cuando debería poner "html".
+2. En la linea 2, esta mal escrito el atributo lang="es" ya que pone lan en vez de lang y que en "es" le faltan las comillas.
+3. En la linea 4, no había asignado el charset lo que podría generar problemas con los caracteres.
+4. En la linea 5, la etiqueta <title> se ha dejado abierta sin cerrar.
+5. En la linea 8, la etiqueta <h1> estaba mal cerrada dado que faltaba la barra inclinada en el cierre. 
+6. en la linea 9, el orden de cerrar las etiquetas <b> y <p> esta al revés primero <b> y después <p>.
+7. En la linea 10, falta faltaba cerrar la etiqueta <p>.
+8. En la linea 12, faltaba cerrar la etiqueta <li>.
+9. En la linea 13, faltaba cerrar la etiqueta <li>.
