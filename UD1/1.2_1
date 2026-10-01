@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paterna - Mi Localidad</title>
+</head>
+<body>
+    <h1>Paterna: Tradición y Modernidad</h1>
+
+    <section>
+        <h2>Historia</h2>
+        <p>Paterna cuenta con un rico legado histórico que se remonta a la época romana, destacando restos arqueológicos de gran valor como su Torre y las Cuevas de la Batallona. A lo largo de los siglos, la localidad ha sabido conservar su esencia tradicional mientras crecía de forma constante.</p>
+    </section>
+
+    <section>
+        <h2>Gastronomía</h2>
+        <p>La cocina tradicional de Paterna está profundamente ligada a la huerta valenciana y a la dieta mediterránea. Entre sus platos más emblemáticos destacan la paella valenciana y los tradicionales dulces caseros elaborados en festividades locales.</p>
+        
+        <h3>El puchero tradicional</h3>
+        <p>Como subsección dentro de la gastronomía local, el puchero con pelotas es uno de los platos más reconfortantes que se preparan en los hogares paterneros durante los meses más fríos del año, reuniendo a toda la familia alrededor de la mesa.</p>
+    </section>
+
+    <section>
+        <h2>Lugares de interés</h2>
+        <p>Uno de los puntos más emblemáticos del municipio es el Parc Natural del Túria, un espacio verde ideal para practicar senderismo, montar en bicicleta y disfrutar de la naturaleza junto al río muy cerca del núcleo urbano.</p>
+    </section>
+</body>
+</html>
