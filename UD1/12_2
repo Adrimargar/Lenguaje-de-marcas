@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda Online - Ficha de Producto</title>
+</head>
+<body>
+    <p>Bienvenido a nuestra tienda online.</p>
+    <p><strong>Envío gratuito en pedidos superiores a 50 euros.</strong>[cite: 2]</p>
+    
+    <blockquote>
+        "La calidad no es un acto, es un hábito" Aristóteles.[cite: 2]
+    </blockquote>
+    
+    <p>Advertencia: el producto ha sido <em>descatalogado</em> y sustituido por el modelo <mark>XR-200</mark>.</p>[cite: 2]
+    
+    <hr>
+    
+    <p>Precio anterior: <del>39,99 euros</del>. Precio actual: <ins>29,99 euros</ins>.</p>[cite: 2]
+</body>
+</html>
