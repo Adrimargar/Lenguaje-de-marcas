@@ -1,0 +1,22 @@
+
+h1 {
+    color: orange;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid orange;
+}
+
+
+
+h2 {
+    color: red;
+}
+
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    color: cyan;
+}
+  
