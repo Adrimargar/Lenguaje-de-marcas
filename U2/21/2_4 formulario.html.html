@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de alta de usuario</title>
+</head>
+<body>
+
+    <form action="http://172.30.18.224:3000/" method="post" enctype="text/plain">
+        <table border="1" cellpadding="5" cellspacing="0">
+            
+            <tr>
+                <td colspan="2" style="background-color: coral; color: white; text-align: center;">
+                    <h2>Formulario de alta de usuario</h2>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td colspan="2">
+                    <label for="usuario">Identificador de nuevo usuario:</label>
+                    <input type="text" id="usuario" name="usuario" value="usu_012345" readonly >
+                </td>
+            </tr>
+
+          
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" title="Introduce tu nombre">
+                </td>
+                <td>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" title="Introduce tus apellidos">
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" title="Introduce tu contraseña">
+                </td>
+                <td>
+                    <label for="password2">Confirmar contraseña:</label>
+                    <input type="password" id="password2" name="password2" title="Vuelve a introducir tu contraseña">
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td colspan="2">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" style="width: 80%;" title="Introduce tu correo electrónico">
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td colspan="2">
+                    <label>Sexo:</label>
+                    <input type="radio" id="hombre" name="sexo" value="hombre">
+                    <label for="hombre">Hombre</label>
+                    
+                    <input type="radio" id="mujer" name="sexo" value="mujer" checked>
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>Aficiones:</label><br>
+                    <input type="checkbox" id="deporte" name="aficiones" value="deporte">
+                    <label for="deporte">Deportes</label><br>
+                    
+                    <input type="checkbox" id="lectura" name="aficiones" value="lectura" checked>
+                    <label for="lectura">Lectura</label><br>
+                    
+                    <input type="checkbox" id="cine" name="aficiones" value="cine">
+                    <label for="cine">Cine</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais" title="Selecciona tu país de origen">
+                        <option value="espana" selected>España</option>
+                        <option value="francia">Francia</option>
+                        <option value="portugal">Portugal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="foto">Subir su foto:</label>
+                    <input type="file" id="foto" name="foto" title="Selecciona una imagen de perfil">
+                </td>
+            </tr>
+
+            
+
+    
+       
