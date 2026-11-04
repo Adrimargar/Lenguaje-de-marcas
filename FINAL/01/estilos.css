@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header, nav, footer{
+    background-color: #eee;
+}
+
+table {
+    margin: auto;
+}
+header img {
+    width: 80px;
+    height: 80px;
+}
+td:nth-child(2){
+    width: 100%;
+}
+header tr:nth-child(1){
+    color: brown;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+header tr:nth-child(2){
+    color: darkgreen;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 0 5px;
+}
+nav li:hover {
+    text-decoration: underline overline red;
+    color: red;
+}
+nav ul {
+    list-style: none;
+    margin: 15 0 0 0;
+    padding: 0
+}
+nav {
+    text-align: center;
+    margin-bottom: 10;
+}
+
+article{
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+article p, article h2 {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+article img {
+    transition: transform 1s;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    float: inline-start;
+}
+article img:hover {
+    transform: scale(1.3);
+}
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+article:nth-child(3) {
+    background-color: rgba(208,61,107,0.5);
+}
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+
+footer ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0
+}
+footer li {
+    display: inline;
+    margin: 0;
+}
+footer img {
+    width: 30px;
+    transition: transform 1s;
+}
+footer img:hover {
+    transform: scale(1.5);
+}
+footer {
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    font-size: small;
+    color: lightgray;
+}
