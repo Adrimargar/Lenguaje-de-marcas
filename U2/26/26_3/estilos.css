@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+    color: darkslategray;
+}
+
+p::first-letter {
+    font-size: x-large;
+    color: crimson;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+*::selection {
+    color: goldenrod;
+    background-color: midnightblue;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "✔ ";
+}
+
+a[target="_blank"]::after {
+    content: " ↗";
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 10px;
+    background-color: aquamarine;
+    margin-top: 8px;
+}
