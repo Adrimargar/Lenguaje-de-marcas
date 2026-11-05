@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div>
+        <form action="http://172.30.18.224:3000/" enctype="multipart/form-data" method="post">
+            <table>
+                <caption><b>Formulario de alta de usuario</b></caption>
+                <tr>
+                    <td colspan="2"><label for="usuario">Identificador de nuevo usuario</label> <input type="text"
+                            value="usu_012345" readonly name="usuario" id="usuario"></td>
+                </tr>
+                <tr>
+                    <td><label for="nombre_completo">Nombre: </label><input type="text" name="nombre"
+                            id="nombre_completo" title="Escribe tu nombre" required></td>
+                    <td><label for="nombre_completo">Apellidos: </label><input type="text" name="apellidos"
+                            id="nombre_completo" title="Escribe tus dos apellidos"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Contraseña: </label><input type="password" name="password" id="pass"
+                            title="La contraseña tiene que contener almenos un numero y letra" required></td>
+                    <td><label for="pass" required>Confirmar contraseña: </label><input type="password" name="password2"
+                            id="pass" title="Introduce de nuevo la contraseña" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email: </label><input type="text" name="email" id="email" size="50"
+                            title="Introduce tu email"></td>
+                    <td><label for="codigo">Código Promocional:</label><input type="text" name="codigo_p" id="codigo_p" title="Inserta tu código promocional si tienes uno." disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="genero">Sexo: </label></td>
+                    <td><label><input type="radio" name="sexo" value="hombre" id="genero">Hombre </label>
+                        <label><input type="radio"
+                            name="sexo" value="mujer" id="genero" checked>Mujer</label></td>
+                </tr>
+                <tr>
+                    <td><label for="hobby">Aficiones: </label></td>
+                    <td><label><input type="checkbox" name="aficiones" value="deporte" id="hobby">Deporte </label><br>
+
+                        <label><input type="checkbox" name="aficiones" checked value="lectura" id="hobby">Lectura </label><br>
+
+                        <label><input type="checkbox" name="aficiones" value="cine" id="hobby">Cine</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="country">País: </label></td>
+                    <td>
+                        <select name="pais" id="country">
+                            <option value="españa" selected>España</option>
+                            <option value="francia">Francia</option>
+                            <option value="portugal">Portugal</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="img">Subir su foto: </label></td>
+                    <td><input type="file" name="foto" id="img"></td>
+                </tr>
+                <tr>
+                    <td><label for="comentario">Comentarios personales</label></td>
+                    <td><textarea name="comentarios" id="comentario" placeholder="Escriba aquí sus comentarios"
+                            cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="boton" ><input class="boton"  type="reset" value="Resetear"></td>
+                    <td class="boton" ><input class="boton" type="submit" value="Enviar"></td>
+                </tr>
+
+
+            </table>
+        </form>
+    </div>
+</body>
