@@ -1,0 +1,45 @@
+.pagina {
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+.cabecera {
+  background-color: #ffcccc;
+  border: 1px solid #cc0000;
+  text-align: center;
+}
+
+.contenido {
+  background-color: #ccffcc;
+  border: 1px solid #00cc00;
+  display: flex;
+}
+
+.pie {
+  background-color: #ccccff;
+  border: 1px solid #0000cc;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tarjeta {
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #555;
+  margin: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  
+  
+}
+
+  background-color: #ffeb3b;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  
+  display: inline-block;
+}
+
