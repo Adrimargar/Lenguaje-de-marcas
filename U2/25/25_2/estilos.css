@@ -1,0 +1,60 @@
+div {
+    width: 65%;
+    margin: auto;
+    border: 10px solid aquamarine;
+    padding: 10px;
+    background-color: grey;    
+}
+nav,ul{
+    display: flex;
+    margin: auto;
+    list-style: none;
+    padding-inline-start: 0;
+    gap: 100px;
+
+}
+nav {
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+li {
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 5px solid aquamarine;
+    padding: 5px;
+    background-color: coral;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: yellow;
+    font-size: 120%;
+}
+
+h3 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#first {
+    color: pink;
+}
+#second {
+    color: blue;
+}
+#third {
+    color: green;
+}
+#forth {
+    color: violet;
+}
+
+html {
+    scroll-behavior: smooth;
+}
