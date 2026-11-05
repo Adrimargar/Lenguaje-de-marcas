@@ -1,0 +1,29 @@
+.contenedor {
+    border: 1px solid;
+    width: 300px;
+    position: relative;
+
+}
+.cuadro {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.c1{
+    background-color: aquamarine;
+    position: static;
+    left: 50px; 
+}
+.c2{
+    background-color: aqua;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    z-index: -1;
+}
+.c3{
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
